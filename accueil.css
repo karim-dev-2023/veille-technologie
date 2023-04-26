@@ -1,0 +1,95 @@
+@font-face {
+    font-family: font-1;
+    src: url(./asset/Rubik-Regular.ttf);
+}
+@font-face {
+    font-family: font-2;
+    src: url(./asset/Rubik-Medium.ttf);
+}
+body{
+    background: url(./asset/bg.png)no-repeat center/cover;
+    height: 100%;
+    margin: 10px 80px;
+    font-family: "font-1", serif;
+    font-size: large;
+    
+}
+main{
+    background: rgb(157 46 143 / 76%);
+    width: 90%;
+    min-height: 100px;
+    display: block;
+    /*Le 0 signifie pour la marge de haut 
+    et les bas et la 2eme signifie que a gauche et a droite vous avez les meme marge*/
+    margin: 25px auto;
+    padding: 20px;
+    padding-bottom: 3px;
+    border-radius: 20px;
+
+}
+
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+h1{
+    letter-spacing: 2px;
+    color: white;
+    font-family: "font-2", serif;
+}
+.onglets{
+    margin-top: 13px;
+}
+.onglets a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    margin-right: 10px;
+}
+/*a:hover{
+    color: aliceblue;
+    transition: all .3s ease;
+}*/
+.article{
+    margin-top: 30px;
+    
+}
+.article1{
+    display: flex;
+    margin-bottom: 30px;
+}
+.left img{
+    border-radius: 20px;
+    height: 250px;
+    width: 500px;
+}
+.right{
+    max-width: 50%;
+    margin-left: 40px;
+}
+.date{
+    text-decoration: none;
+    color: rgb(24, 9, 9);
+}
+.description{
+    text-decoration: none;
+    color: #2d2d2d;
+}
+.button{
+    letter-spacing: 1px;
+    font-family: "font-2", serif;
+    background-color: rgb(58 53 179);
+    border-radius: 8px;
+    color: beige;
+    padding: 15px 25px;
+    margin: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px; 
+}
+.button:hover{
+    background-color: aqua;
+    color: black;
+    transition: all .3s ease;
+}

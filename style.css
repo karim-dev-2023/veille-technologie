@@ -1,0 +1,86 @@
+
+@font-face {
+    font-family: "font-1"; /*Je lui donne un nom*/
+    src: url(./asset/Rubik-Medium.ttf);
+    /*J'importe la police que j'ai enregistrer dans le fichier assets*/
+}
+@font-face{
+    font-family: "font-2";
+    src: url(./asset/Rubik-Regular.ttf);
+}
+body {
+    font-family: 'font-1', serif;
+    background: url(./asset/bg.png) no-repeat fixed center/cover;
+    height: 100%;
+   /* overflow: hidden;/*C'est pour cacher la barre de defilement*/
+}
+h1{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 2.5rem;
+    color: wheat;
+    text-shadow: -4px 1px 0 darkblue;
+    text-align: center;
+}
+main{
+    background: #00f7bea6;
+    width: 90%;
+    min-height: 100px;
+    /*Le 0 signifie pour la marge de haut 
+    et les bas et la 2eme signifie que a gauche et a droite vous avez les meme marge*/
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: #ff4545 -13px -7px 0px;
+}
+a{
+    text-decoration: none;
+}
+
+img{
+    height: 10cm;
+    /*C'est pour centrer une image*/
+    display: block;
+    margin: auto;
+    border-radius: 25px;
+    padding: 10px;  
+    
+}
+h3 {
+    font-family: "font-2", serif;
+    margin-left: 15px;
+    margin-right: 15px;
+    text-align: justify;
+}
+
+.button{
+    letter-spacing: 1px;
+    font-family: "font-2", serif;
+    background-color: orangered;
+    border-radius: 2rem;
+    color: beige;
+    padding: 15px 25px;
+    margin: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px; 
+}
+.button:hover{
+    background-color: aqua;
+    color: black;
+    transition: all .3s ease;
+}
+div{
+    text-align: center;
+}
+li{
+    margin-top: 20px;
+    margin-left: 40px;
+}
+p{
+    text-align: center;
+}
+.remerciement{
+    text-align: center;
+}
